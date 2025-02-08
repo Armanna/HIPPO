@@ -13,9 +13,9 @@ python -m venv .venv
 
 ## Activate the virtual environment
 ### Windows
-./.venv/scripte/activate
+.\.venv\Scripts\activate
 ### Mac or Linus
-source ./.venv/bin/activate
+source .\.venv\bin\activate
 
 ## Install the dependencies
 python -m pip install --upgrade pip
@@ -24,4 +24,4 @@ pip install -r requirements.txt
 ## Run the application
 python main.py
 
-## Check the app.py
+## Check the app.log

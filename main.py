@@ -39,5 +39,6 @@ if __name__ == "__main__":
     logging.info("APPLICATION STARTED ========================================")
     main()
     logging.info("APPLICATION COMPLETED ========================================")
+    print('Completed. Check app.log')
 
 
