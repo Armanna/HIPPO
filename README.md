@@ -11,6 +11,7 @@ https://gist.github.com/matheus-hellohippo/a0e28bcbeade9e5044a08808a847a11c
 ## Create a virtual environment
 ```bash
 python -m venv .venv
+```
 
 ## Activate the virtual environment
 ### Windows
