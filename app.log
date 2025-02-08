@@ -1,0 +1,18 @@
+2025-02-08 18:27:03 - INFO - APPLICATION STARTED ========================================
+2025-02-08 18:27:03 - INFO - In output-d3b4f4d8-109f-4a98-9df4-ef50dd223aa2.json invalid event found and skipped: 1 validation error for ClaimEvent
+quantity
+  Field required [type=missing, input_value={'id': '0fdbb8bc-de7c-435...: '2024-01-01T12:12:22'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-08 18:27:03 - INFO - In output-f6320eed-35a7-46bb-8c57-59be6146e31f.json invalid event found and skipped: 1 validation error for ClaimEvent
+quantity
+  Input should be greater than 0 [type=greater_than, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/greater_than
+2025-02-08 18:27:03 - INFO - In output-f6320eed-35a7-46bb-8c57-59be6146e31f.json invalid event found and skipped: 1 validation error for ClaimEvent
+quantity
+  Field required [type=missing, input_value={'id': 'c331a516-8fa9-4aa...: '2024-01-01T12:12:22'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-08 18:27:03 - INFO - GOAL 1 IS DONE: Data is extracted
+2025-02-08 18:27:03 - INFO - GOAL 2 IS DONE. Check output_data\metrics_output.json
+2025-02-08 18:27:03 - INFO - GOAL 3 IS DONE. Check output_data\drug_unit_prices_per_chain.json
+2025-02-08 18:27:03 - INFO - GOAL 4 IS DONE. Check output_data\most_common_quantity_prescribed.json
+2025-02-08 18:27:03 - INFO - APPLICATION COMPLETED ========================================
