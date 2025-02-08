@@ -1,0 +1,10 @@
+source:
+  pharmacy:
+    path: source_data/pharmacies
+    type: csv
+  claim:
+    path: source_data/claims
+    type: json
+  revert:
+    path: source_data/reverts
+    type: json
